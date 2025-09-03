@@ -1,6 +1,6 @@
 # GIS-Data-Updates-using-Arcpy
 
-## Udate Feature Class Table Script
+## Update Feature Class Table Script
 ## Project Overview
 This project automates the process of synchronizing attributes and geometry between a local feature class and an enterprise geodatabase (SDE) versioned feature class.
 
