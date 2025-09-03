@@ -1,5 +1,6 @@
 # GIS-Data-Updates-using-Arcpy
-//Water Manhole Update Script// 
+
+##Update Feature Class Table Script
 📌Project Overview
 
 This project automates the process of synchronizing attributes and geometry between a local feature class (localwtrManhole) and an enterprise geodatabase (SDE) versioned feature class (wtrManhole).
