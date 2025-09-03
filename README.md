@@ -1,19 +1,15 @@
 # GIS-Data-Updates-using-Arcpy
 
-##Update Feature Class Table Script
-📌Project Overview
-
-This project automates the process of synchronizing attributes and geometry between a local feature class (localwtrManhole) and an enterprise geodatabase (SDE) versioned feature class (wtrManhole).
+## Udate Feature Class Table Script
+## 📌Project Overview
+This project automates the process of synchronizing attributes and geometry between a local feature class and an enterprise geodatabase (SDE) versioned feature class.
 
 The script was built to:
-
 Ensure that PLANSETNUMBER is populated when missing (defaulting to "needs review").
-
 Align XY geometry coordinates in SDE with those from the local dataset.
-
 Run updates inside a versioned edit session, so that all changes are isolated to a private version before reconcile/post.
 
-⚙️ Workflow
+## ⚙️ Workflow
 
 Create SDE Connection File
 A database connection file (.sde) is generated and stored securely (outside of source control).
